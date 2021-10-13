@@ -1,19 +1,21 @@
+/* CSS global */
+
 #logo {
 width: 250px;
 }
 .contain {
     display: flex;
     padding: 33px;
- border-radius: 16px;
- margin: 2%;
- justify-content:center;
+    border-radius: 16px;
+    margin: 2%;
+    justify-content:center;
     }
 
     .contain:nth-child(odd){
     background-color: white;
     color: black;
     }
- .contain:nth-child(even){
+.contain:nth-child(even){
     background-color: rgba(122,248,255,1);
     color: white;
 }
@@ -30,7 +32,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
+    margin: 2%;
 }
 
 li {
@@ -39,14 +42,24 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgb(48, 236, 250);
+}
+
+#message{
+    height: 125px;
+    width:250px;
+}
+
+
+#columns {
+    flex-direction: column;
 }
 
 
