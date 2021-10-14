@@ -8,10 +8,10 @@
 
 .contain {
     display: flex;
-    padding: 2%;
+    padding: 33px;
     border-radius: 16px;
+    
     justify-content:center;
-    margin: 2%;
     }
 
     .contain:nth-child(odd){
@@ -25,7 +25,7 @@
 
 body{
     background-attachment: scroll;
-    background-image: url("background.jpg");
+    background-image: url("image/background.jpg");
     background-size: cover;
 }
 
@@ -67,6 +67,71 @@ border-radius: 16px;
 #logo {
     width: 250px;
     }
+
+/* Fansite2.html */
+table{
+    
+    text-align: center ;
+    justify-content: flex-end;
+    display:flex-end;
+}
+
+.parent{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+    margin:0.5cm;
+    justify-content: space-evenly;
+
+
+}
+
+
+
+
+
+.compolille{
+display:flex-end;
+border-style: solid;
+border-color: black;
+width: fit-content;
+height: fit-content;
+
+}
+
+.compoom{
+display:flex-end;
+border-style: solid;
+border-color: black;
+width: fit-content;
+height: fit-content;
+
+
+}
+
+#om{
+width: 50px;
+height: 50px;
+
+}
+#tetejoueurs{
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+
+
+
+#cartonjaune{
+    width: 25px;
+	height: 25px;
+
+}
+
+
+
 /* Fansite3.html */
 
 #columns {
