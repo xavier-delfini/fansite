@@ -8,10 +8,10 @@
 
 .contain {
     display: flex;
-    padding: 33px;
+    padding: 2%;
     border-radius: 16px;
-    margin: 2%;
     justify-content:center;
+    margin: 2%;
     }
 
     .contain:nth-child(odd){
@@ -77,3 +77,17 @@ border-radius: 16px;
     height: 125px;
     width:250px;
 }
+
+input, select, textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 99%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #9CBFA7;
+  }
