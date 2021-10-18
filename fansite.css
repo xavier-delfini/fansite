@@ -10,8 +10,9 @@
     display: flex;
     padding: 33px;
     border-radius: 16px;
-    
+    margin: 2%;
     justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px ;
     }
 
     .contain:nth-child(odd){
@@ -40,6 +41,10 @@ ul {
 
 li {
     float: left;
+}
+
+#sub-contain{
+    display: block
 }
 
 li a {
